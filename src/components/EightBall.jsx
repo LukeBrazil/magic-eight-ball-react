@@ -25,6 +25,7 @@ const WhiteEightBall = styled.div `
     margin-bottom: 30px;
     margin-top: 30px;
     content: '8';
+    background-image: url("/public/images/81.jpg")
 
   
 `
@@ -47,7 +48,7 @@ const EightBall = (props) => {
 
   return (
     <>
-      <MagicEightBall > <WhiteEightBall /> </MagicEightBall>
+      <MagicEightBall > <WhiteEightBall > 8 </ WhiteEightBall> </MagicEightBall>
       <form onSubmit={(event) => _handleSubmit(event)}>
         <label>
           What is your question???
